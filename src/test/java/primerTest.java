@@ -6,5 +6,9 @@ public class primerTest {
     public void primera(){
         Assert.assertEquals("OK, OLE", "OLE","OLE");
     }
+    @Test
+    public void segundo(){
+        Assert.assertTrue(true);
+    }
 
 }
